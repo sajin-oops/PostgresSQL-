@@ -46,8 +46,12 @@ RIGHT JOIN mark
 ON student.id = mark.id;
 
 
+--FULL outer join
 
-
+SELECT student.name,mark.score 
+FROM student
+FULL OUTER JOIN mark
+ON student.id = mark.id;
 
 
 
