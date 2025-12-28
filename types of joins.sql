@@ -36,3 +36,24 @@ ON student.id = mark.id;
 -- FROM mark
 -- LEFT JOIN student
 -- ON mark.id = student.id;
+
+
+-- Right join
+
+SELECT student.name,mark.score 
+FROM student
+RIGHT JOIN mark
+ON student.id = mark.id;
+
+
+
+
+
+
+
+
+
+
+
+
+
